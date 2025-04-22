@@ -1,13 +1,15 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <IsLibraryTestProject>true</IsLibraryTestProject>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <IsTestProject>false</IsTestProject>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TUnit.Assertions" Version="0.19.84" />
-    <PackageReference Include="TUnit.Core" Version="0.19.84" />
+    <PackageReference Include="TUnit.Assertions" Version="0.19.86" />
+    <PackageReference Include="TUnit.Core" Version="0.19.86" />
   </ItemGroup>
 
 </Project>
