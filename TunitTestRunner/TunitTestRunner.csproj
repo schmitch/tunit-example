@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <TestingPlatformDotnetTestSupport>true</TestingPlatformDotnetTestSupport>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="TUnit" Version="0.19.84" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TunitTests1\TunitTests1.csproj" />
+    <ProjectReference Include="..\TunitTests2\TunitTests2.csproj" />
+  </ItemGroup>
+
+</Project>

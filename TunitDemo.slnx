@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ConsoleApp/ConsoleApp.csproj" />
+  <Project Path="TunitTestRunner/TunitTestRunner.csproj" />
+  <Project Path="TunitTests1/TunitTests1.csproj" />
+  <Project Path="TunitTests2/TunitTests2.csproj" />
+</Solution>
